@@ -101,11 +101,6 @@ plt=sns.boxplot(x='Pclass', y='Age', hue='Gender', data=data)
 <img width="511" height="376" alt="op1 14" src="https://github.com/user-attachments/assets/3e6ee7a1-6101-410a-9f05-aa4e3a89bd87" />
 
 ```
-sns.catplot(x='Pclass', y="Age", hue="Gender", col="Survived", kind="box", data=data)
-```
-<img width="923" height="440" alt="op1 15" src="https://github.com/user-attachments/assets/eb985489-8f69-48b4-a2ba-93b60b2ecbb6" />
-
-```
 sns.catplot(data=data, col="Survived", x="Gender", hue='Pclass', kind="count")
 ```
 <img width="892" height="441" alt="op1 16" src="https://github.com/user-attachments/assets/bee43844-a3b7-4546-a8f4-e4cd0f00903c" />
