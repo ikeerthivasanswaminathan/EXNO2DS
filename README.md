@@ -116,11 +116,5 @@ sns.heatmap(corr,annot=True)
 ```
 <img width="470" height="397" alt="op1 17" src="https://github.com/user-attachments/assets/b5de5682-ff60-4afe-8d75-011723f6e7d1" />
 
-```
-corr=data.select_dtypes(include=np.number).corr()
-sns.heatmap(corr,annot=True)
-```
-<img width="478" height="395" alt="op1 18" src="https://github.com/user-attachments/assets/1f56fd7e-18ae-47c4-ac1a-53168f8f6faf" />
-
 # RESULT
 Thus, the programs are executed and verified successfully.
